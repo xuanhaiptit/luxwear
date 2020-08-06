@@ -1,0 +1,40 @@
+
+#list-paging{
+    /*float: right;*/
+}
+#list-paging li {
+    float: left;
+}
+ul li {
+    list-style: none!important;
+}
+#list-paging li.active a {
+    border: 1px solid #f00;
+    color: #f00;
+}
+#list-paging li a {
+    display: inline-block;
+    color: #555;
+    font-size: 13px;
+    padding: 0px 5px;
+}
+a {
+    text-decoration: none!important;
+}
+#paging-wp{
+    margin-top: 10px;
+}
+.box-tools{
+    margin-top:10px;
+}
+.img-rounded{
+    width: 80px!important;
+    height: 80px!important;
+}
+.removeRow {
+    background-color: #FF0000!important;
+    color: #FFFFFF;
+}
+.error{
+    color:red;
+}
